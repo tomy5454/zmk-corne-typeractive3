@@ -38,9 +38,9 @@
 
             display-name = "Lower";
             bindings = <
-&kp F1     &kp F2    &kp F3    &kp F4    &kp F5     &kp F6       &kp F7        &kp F8      &kp F9      &kp F10  &kp F11  &kp F12
-&kp GRAVE  &kp N1    &kp N2    &kp N3    &kp N4     &kp N5       &kp NUMBER_6  &kp N7      &kp N8      &kp N9   &kp N0   &kp HASH
-&kp LSHFT  &kp LBKT  &kp RBKT  &kp BSLH  &kp MINUS  &kp EQUAL    &bt BT_CLR    &bt BT_NXT  &bt BT_NXT  &trans   &trans   &kp RIGHT_ALT
+&kp F1     &kp F2    &kp F3    &kp F4    &kp F5     &kp F6       &kp F7        &kp F8      &kp F9      &kp F10  &kp F11         &kp F12
+&kp GRAVE  &kp N1    &kp N2    &kp N3    &kp N4     &kp N5       &kp NUMBER_6  &kp N7      &kp N8      &kp N9   &kp N0          &kp HASH
+&kp LSHFT  &kp LBKT  &kp RBKT  &kp BSLH  &kp MINUS  &kp EQUAL    &bt BT_CLR    &bt BT_NXT  &bt BT_NXT  &trans   &bt BT_CLR_ALL  &kp RIGHT_ALT
                                &kp LGUI  &trans     &kp SPACE    &kp RET       &trans      &kp RALT
             >;
         };
