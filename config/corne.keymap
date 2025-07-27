@@ -5,6 +5,7 @@
  */
 
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
@@ -53,10 +54,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp KP_PLUS    &kp KP_MINUS   &kp KP_MULTIPLY  &kp KP_N7        &kp KP_N8  &kp KP_N9          &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp END         &kp KP_NUM    &kp PAGE_UP
-&kp KP_DIVIDE  &kp EQUAL      &kp KP_DOT       &kp KP_N4        &kp KP_N5  &kp KP_NUMBER_6    &kp MINUS  &kp EQUAL  &kp LBKT         &kp HOME        &kp UP_ARROW  &kp PAGE_DOWN
-&kp ENTER      &kp BACKSPACE  &kp DEL          &kp KP_NUMBER_1  &kp KP_N2  &kp KP_N3          &kp UNDER  &kp PLUS   &kp LBRC         &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
-                                               &kp N0           &trans     &kp SPACE          &kp RET    &trans     &kp RALT
+&kp KP_PLUS    &kp KP_MINUS   &kp KP_MULTIPLY  &kp KP_N7        &kp KP_N8  &kp KP_N9          &bl BL_TOG  &bl BL_CYCLE  &trans    &kp END         &kp KP_NUM    &kp PAGE_UP
+&kp KP_DIVIDE  &kp EQUAL      &kp KP_DOT       &kp KP_N4        &kp KP_N5  &kp KP_NUMBER_6    &bl BL_INC  &trans        &trans    &kp HOME        &kp UP_ARROW  &kp PAGE_DOWN
+&kp ENTER      &kp BACKSPACE  &kp DEL          &kp KP_NUMBER_1  &kp KP_N2  &kp KP_N3          &bl BL_DEC  &trans        &trans    &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
+                                               &kp N0           &trans     &kp SPACE          &kp RET     &trans        &kp RALT
             >;
         };
 
